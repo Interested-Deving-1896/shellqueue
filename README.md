@@ -1,31 +1,91 @@
-# Shellqueue
+# shellqueue
 
-`shellqueue` is a simple filesystem-based task queue, based around four folders:
-`planning`, `scheduled`, `processing` and `completed`.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/shellqueue) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria) [![Energy](https://api.green-coding.io/v1/ci/badge/get?repo=Interested-Deving-1896%2Fshellqueue&branch=main&workflow=eco-audit.yml)](https://metrics.green-coding.io/ci-index.html)
 
-## How to use `shellqueue`
 
-Init a `shellqueue` anywhere with
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-    > shellqueue init
+## Architecture
 
-And start the daemon
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-    > shellqueue daemon
+## Install
 
-Copy the entire contents of your current folder as a task into the `shellqueue`
-(in `planning/`)
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-    > shellqueue clone
+```bash
+git clone https://github.com/Interested-Deving-1896/shellqueue.git
+cd shellqueue
+```
 
-this will open up your editor where you define the manifest for your task, which
-executable to run and the output folder.
+## Usage
 
-Enqueue with
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-    > shellqueue enqueue
- 
-this will put your task in `scheduled/`
+## Configuration
 
-All processing tasks will be in `processing/`, and once completed will move to
-`completed/`.
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/shellqueue`](https://github.com/Interested-Deving-1896/shellqueue) and mirrored through:
+
+```
+Interested-Deving-1896/shellqueue  ──►  OpenOS-Project-OSP/shellqueue  ──►  OpenOS-Project-Ecosystem-OOC/shellqueue
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream influences recorded._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## Accessibility
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
+
+
+
+
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/shellqueue/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/shellqueue/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
